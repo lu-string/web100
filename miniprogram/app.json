@@ -1,0 +1,64 @@
+{
+  "pages": [
+   
+    "pages/answer/answer",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/wrong/wrong",
+    "pages/ranking/ranking",
+    "pages/user/user",
+    "pages/ItemBank/ItemBank"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "webGo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/tabar/index1.png",
+        "iconPath": "images/tabar/index.png",
+        "pagePath": "pages/answer/answer",
+        "text": "题库"
+      },
+      {
+        "selectedIconPath": "images/tabar/index2.png",
+        "iconPath": "images/tabar/index22.png",
+        "pagePath": "pages/wrong/wrong",
+        "text": "面经"
+      },
+      {
+        "selectedIconPath": "images/tabar/index33.png",
+        "iconPath": "images/tabar/index3.png",
+        "pagePath": "pages/ranking/ranking",
+        "text": "排名"
+      },
+      {
+        "selectedIconPath": "images/tabar/index44.png",
+        "iconPath": "images/tabar/index4.png",
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

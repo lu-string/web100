@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<view class="box">
+<swiper class="screen-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper-item wx:for="{{swiperList}}" wx:key="index">
+    <image src="{{item.urlImg}}" mode="aspectFill"></image>
+  </swiper-item>
+</swiper>
+<view class="text-blue text-center ChoiceTop">
+  请选择测试的题库类型
+</view>
+<view class="bthC">
+  <button wx:for="{{list}}" wx:key="index" class="cu-btn round bg-{{item.color}} shadow" bindtap="BthClick" data-data="{{item}}">{{item.name}}</button>
+  </view>
+  </view>

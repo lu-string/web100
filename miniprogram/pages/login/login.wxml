@@ -1,0 +1,16 @@
+<!-- 需要使用 button 来授权登录 -->
+
+<view class="bigBox" >
+
+<view class="box" >
+<image src="../../images/logo.jpg" class="png"></image>
+</view>
+<view class="Textpng">
+	<text>前端100，go！go！go！</text>
+</view>
+<button wx:if="{{canIUse}}" open-type="getUserInfo" class="cu-btn round" bindgetuserinfo="getInfo" >微信登录</button>
+<view wx:else>请升级微信版本</view>
+<view>
+</view>
+<image src="../../images/sss.png" class="boxBottm"></image>
+</view>

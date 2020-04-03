@@ -1,0 +1,5 @@
+<view class="box">
+
+<view class="title">{{activeIndex+1}}.{{listData[activeIndex].title}}</view>
+<view  wx:for="{{listData[activeIndex].option}}" wx:key="index" class="min " hover-class="isShow" bindtap="minClick" data-index="{{index}}">{{item}}</view>
+</view>

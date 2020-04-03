@@ -1,0 +1,41 @@
+/* pages/home/home.wxss */
+.box{
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+    flex-direction: column
+}
+.ChoiceTop{
+ 
+  font-size: 50rpx;
+  line-height: 120rpx;
+  font-weight: bold;
+  letter-spacing:8rpx
+}
+.bthC{
+   flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.bthC .cu-btn{
+  margin-top: 30rpx;
+  height: 80rpx
+}
+.aniamtion {
+  animation: mymove  3s ease;
+  /* //infinite属性是表示无限循环的意思，没有这个属性的话动画只执行一次。 */
+}
+@keyframes mymove {
+  from {
+    bottom: -40px;
+	/* transform: rotate(7deg) skew(50deg) translate(30rpx,30rpx); */
+	/* transform: rotate3d(100,200,300,0deg); */
+  }
+
+  to {
+   bottom: 0px;
+	/* transform: rotate(7deg) skew(5deg) translate(100rpx,100rpx); */
+	/* transform: rotate3d(200,300,400,360deg); */
+  }
+}
